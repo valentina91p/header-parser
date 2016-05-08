@@ -8,5 +8,5 @@ app.get("/", function(req, res){
 	res.json(info);
 });
 app.listen(process.env.PORT || 80, function(){
-	console.log("Running on port ",(process.env.port || 80));
+	console.log("Running on port ",(process.env.PORT || 80));
 });
